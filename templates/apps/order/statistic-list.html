@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+{% for thread in threads %}
+    <h3><a href="{% url 'thread-statistic' %}?period=today">Bugungi</a></h3>
+	<h1>
+    {{ thread.new_order }} , {{ thread.title }} , {{ thread.thread.all_visit }} , {{ thread.thread.new_all }}
+    </h1>
+{% endfor %}
+
+</body>
+</html>

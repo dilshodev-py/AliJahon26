@@ -1,0 +1,26 @@
+[
+  {
+    "model": "apps.District",
+    "pk": 1,
+    "fields": {
+      "name": "Yunusobod",
+      "region" : 1
+    }
+  },
+  {
+    "model": "apps.District",
+    "pk": 2,
+    "fields": {
+      "name": "Sergili",
+      "region" : 1
+    }
+  },
+  {
+    "model": "apps.District",
+    "pk": 3,
+    "fields": {
+      "name": "Payariq",
+      "region" : 2
+    }
+  }
+]

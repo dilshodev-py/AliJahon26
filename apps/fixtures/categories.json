@@ -1,0 +1,20 @@
+[
+  {
+    "model": "apps.Category",
+    "pk": 1,
+    "fields": {
+      "name": "Uy uchun",
+      "slug": "uy-uchun",
+      "image": "https://img.icons8.com/matisse/50/home.png"
+    }
+  },
+  {
+    "model": "apps.Category",
+    "pk": 2,
+    "fields": {
+      "name": "Bollar uchun",
+      "slug": "bollar-uchun",
+      "image": "https://img.icons8.com/officel/80/cheburashka.png"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+.venv/
+.idea/
+apps/migrations/*
+.env/
+
+
+
+
+
